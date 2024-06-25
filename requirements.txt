@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+torch
+torchvision
+pillow
+requests
+numpy
+Pillow
+scikit-learn
+loguru
