@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск похожих изображений</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Поиск похожих изображений</h1>
+        <form id="upload-form">
+            <input type="file" name="file" id="file-input" accept="image/*" required>
+            <button type="submit">Загрузить изображение</button>
+        </form>
+        <div id="results" class="results"></div>
+    </div>
+    <script src="/static/scripts.js"></script>
+</body>
+</html>
